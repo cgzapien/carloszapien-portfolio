@@ -35,8 +35,8 @@ export default function App() {
     <>
       <NavBar />
       <Main />
-      <About />
       <Projects />
+      <About />
       <Skills />
       <Contact />
       {toggleButton && (

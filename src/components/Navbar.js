@@ -9,17 +9,6 @@ const NavBar = () => {
       <Link
         className="hover:cursor-pointer p-[10px] hover:text-[#64ffda]"
         activeClass="active"
-        to="about"
-        spy={true}
-        smooth={true}
-        offset={-15}
-        duration= {500}
-      >
-        About
-      </Link>
-      <Link
-        className="hover:cursor-pointer p-[10px] hover:text-[#64ffda]"
-        activeClass="active"
         to="projects"
         spy={true}
         smooth={true}
@@ -27,6 +16,17 @@ const NavBar = () => {
         duration= {500}
       >
         Projects
+      </Link>
+      <Link
+        className="hover:cursor-pointer p-[10px] hover:text-[#64ffda]"
+        activeClass="active"
+        to="about"
+        spy={true}
+        smooth={true}
+        offset={-15}
+        duration= {500}
+      >
+        About
       </Link>
       <Link
         className="hover:cursor-pointer p-[10px] hover:text-[#64ffda]"

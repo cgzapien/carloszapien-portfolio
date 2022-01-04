@@ -8,7 +8,7 @@ export default function ProjectThree() {
   return (
     <div id="project-one" className="h-max p-5 flex justify-evenly ">
       <div className=" w-fit m-0" id="projectimage">
-        <a href="https://github.com/cgzapien"><img src={workImage} alt="workimage" className="h-96 hover:opacity-50 w-fit hover:cursor-pointer"></img></a>
+        <a href="https://github.com/cgzapien"><img src={workImage} alt="workimage" className="h-96 hover:opacity-50 w-fit hover:cursor-pointer rounded-[4px]"></img></a>
       </div>
       <div id="project-content" className="  w-fit text-right">
         <p className=" text-base text-[#8892b0]">Featured Project</p>
@@ -22,7 +22,9 @@ export default function ProjectThree() {
           <li className=" p-[5px]">CSS</li>
         </ul>
         <div>
+          <span className="font-mono">see my code &#8594;</span>
           <a className=" p-[5px] hover:text-[#64ffda]" href="https://github.com/cgzapien" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faGithub} /></a>
+          <span className="font-mono">see it live &#8594;</span>
           <a className=" p-[5px] hover:text-[#64ffda]" href="https://github.com/cgzapien" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faFile}/></a>
         </div>
       </div>
