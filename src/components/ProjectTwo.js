@@ -21,8 +21,8 @@ export default function ProjectTwo() {
           <li className=" p-[5px]">Tailwind</li>
         </ul>
         <div>
-          <a className=" p-[5px]" href="https://github.com/cgzapien"><FontAwesomeIcon size="lg" icon={faGithub} /></a>
-          <a className=" p-[5px]" href="https://github.com/cgzapien"><FontAwesomeIcon size="lg" icon={faFile}/></a>
+          <a className=" p-[5px] hover:text-[#64ffda]" href="https://github.com/cgzapien"><FontAwesomeIcon size="lg" icon={faGithub} /></a>
+          <a className=" p-[5px] hover:text-[#64ffda]" href="https://github.com/cgzapien"><FontAwesomeIcon size="lg" icon={faFile}/></a>
         </div>
       </div>
       <div className=" w-fit m-0" id="projectimage">

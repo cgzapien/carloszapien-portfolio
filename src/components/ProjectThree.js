@@ -22,8 +22,8 @@ export default function ProjectThree() {
           <li className=" p-[5px]">CSS</li>
         </ul>
         <div>
-          <a className=" p-[5px]" href="https://github.com/cgzapien" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faGithub} /></a>
-          <a className=" p-[5px]" href="https://github.com/cgzapien" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faFile}/></a>
+          <a className=" p-[5px] hover:text-[#64ffda]" href="https://github.com/cgzapien" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faGithub} /></a>
+          <a className=" p-[5px] hover:text-[#64ffda]" href="https://github.com/cgzapien" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faFile}/></a>
         </div>
       </div>
     </div>

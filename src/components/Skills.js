@@ -10,7 +10,7 @@ export default function Skills(){
        <h1 style={{fontSize: "50px", textAlign: "center"}}>
           Skills I've Learned
       </h1>
-      <div className="flex justify-evenly p-5">
+      <div className="flex justify-evenly p-7">
         <div className="">
           <h1 className="display: relative text-3xl">Languages</h1>
           <ul className="w-80 list-disc list-outside">
