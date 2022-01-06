@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 const NavBar = () => {
   return (
     <nav className="h-40">
-      <ul className="text-2xl  flex justify-end font-mono">
+      <ul className="text-1xl sm:text-2xl flex justify-end font-mono">
       <Link
         className="hover:cursor-pointer p-[10px] hover:text-[#64ffda]"
         activeClass="active"
