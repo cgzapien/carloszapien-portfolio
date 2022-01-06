@@ -31,15 +31,15 @@ export default function ContactForm(){
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   }
   return (
-    <div className=" container m-auto">
-      <form onSubmit={onSubmit} >
-        <label>Name:</label><br/>
+    <div className=" container m-auto flex justify-center p-5">
+      <form onSubmit={onSubmit} className="" >
+        <span>Name:</span><br/>
         <input
           name="from_name"
           value={toSend.from_name}
           placeholder="Your full name.."
           onChange={handleChange}
-          className=" w-52"
+          className=" w-52 text-[#0a192f] bg-[#8892b0] placeholder-[#0a192f]"
         ></input>
         <br/>
         <label>Email:</label><br/>
@@ -48,7 +48,7 @@ export default function ContactForm(){
           value={toSend.from_email}
           placeholder="Your email"
           onChange={handleChange}
-          className=" w-52"
+          className=" w-52 text-[#0a192f] bg-[#8892b0] placeholder-[#0a192f]"
         ></input>
         <br/>
         <label>Message:</label><br/>
@@ -56,14 +56,17 @@ export default function ContactForm(){
           name="message"
           value={toSend.message}
           placeholder="Your message.."
-          className=" h-80 w-80 text-red-700"
+          className=" h-80 w-80 text-[#0a192f] bg-[#8892b0] placeholder-[#0a192f]"
           onChange={handleChange}
         ></textarea>
         <br/>
-        <button
-          type="submit"
-          className=" border-[#ccd6f6] border-2 p-3 hover:text-[#64ffda] hover:border-[#64ffda] font-mono"
-        >Send</button>
+        <div className=" text-center">
+          <button
+            type="submit"
+            className=" border-[#ccd6f6] border-2 p-3 hover:text-[#64ffda] hover:border-[#64ffda] font-mono"
+          >Send</button>
+
+        </div>
         
       </form>
     </div>
