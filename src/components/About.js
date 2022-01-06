@@ -1,16 +1,17 @@
 import React from "react";
+import me from "../media/me.jpg"
 
 
 const About = () => {
   return (
     <div id="about" className="h-screen">
       <h1 className="text-5xl text-center" id="aboutme">About me</h1>
-      <div className=" flex p-10 space-x-2">
-        <p className=" break-normal text-xl w-96">Hello, I'm Carlos and I am a Marine Corps Veteran looking to break into tech! Since leaving the militry I have been searching for a career that will challenge me the way the military did. Since learning how to develop web applications</p>
-        <div className=" bg-[#8892b0] h-80 w-96 rounded-[4px]" id="image">
-          <h1>
-            my image 
-          </h1>
+      <div className=" flex p-10 space-x-2 m-auto">
+        <p className=" break-normal text-xl w-96">Hello, I'm Carlos. My passion for working on vehicles has helped me look at coding problems in a similar way and I've taken the same approach when it comes to solving them. I've learned to break the problem up into smaller problems and build them up from the ground up. I'm very excited to start my career as a web developer and looking forward to connect.</p>
+        <div className=" h-80 w-96 " id="image">
+        <a href="https://www.linkedin.com/in/carlos-zapien/" target="_blank"rel="noreferrer">
+          <img src={me} alt="me" className="rounded-[4px]"/>
+        </a>
           {/* make image tag an anchor to linkedin profile */}
         </div>
 

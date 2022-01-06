@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 export default function Main(){
   return (
-    <div className=" h-screen text-center">
+    <div className=" h-full text-center">
       <div className=" text-left w-fit" id="heading">
         <h1 className="text-[#8892b0] text-[30px]">Hi, my name is</h1>
         <h1 className="text-8xl">Carlos Zapien.</h1>

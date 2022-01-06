@@ -8,7 +8,7 @@ export default function ProjectOne() {
   return (
     <div id="project-one" className="h-max p-5 flex justify-evenly ">
       <div className=" w-fit m-0 md:max-w-6xl" id="projectimage">
-        <a href="https://github.com/cgzapien"><img src={workImage} alt="workimage" className="rounded-[4px] h-96 hover:opacity-50 w-fit hover:cursor-pointer"></img></a>
+        <a href="https://github.com/cgzapien"><img src={workImage} alt="workimage" className="rounded-[4px] h-96 hover:opacity-50 hover:cursor-pointer lg:w-fit"></img></a>
       </div>
       <div id="project-content" className="  w-fit text-right">
         <p className=" text-base text-[#8892b0]">Featured Project</p>

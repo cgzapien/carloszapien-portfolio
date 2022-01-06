@@ -40,7 +40,7 @@ export default function App() {
       <Skills />
       <Contact />
       {toggleButton && (
-        <button className="sticky bottom-10 left-[95%] opacity-30 lg:text-5xl sm:text-3xl " onClick={scrollToTop}><FontAwesomeIcon icon={faArrowCircleUp}/></button>
+        <button className="sticky bottom-10 left-[95%] opacity-30 text-4xl md:text-5xl " onClick={scrollToTop}><FontAwesomeIcon icon={faArrowCircleUp}/></button>
       )}
       <Footer />
     </>

@@ -9,24 +9,29 @@ export default function ContactForm(){
   });
   const onSubmit = (e) => {
     e.preventDefault();
-    send(
-      'service_portfolio',
-      'template_portfolio',
-      toSend,
-      'user_ILt67rnSzwuM0lsoOKPOL'
-    )
-      .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
-      })
-      .catch((err) => {
-        console.log('FAILED...', err);
-      });
+    // send(
+    //   'service_portfolio',
+    //   'template_portfolio',
+    //   toSend,
+    //   'user_ILt67rnSzwuM0lsoOKPOL'
+    // )
+    //   .then((response) => {
+    //     console.log('SUCCESS!', response.status, response.text);
+    //   })
+    //   .catch((err) => {
+    //     console.log('FAILED...', err);
+    //   });
+    setToSend({
+      from_name: '',
+      from_email: "",
+      message: '',
+    })    
   };
   function handleChange(e){
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   }
   return (
-    <div className=" container">
+    <div className=" container m-auto">
       <form onSubmit={onSubmit} >
         <label>Name:</label><br/>
         <input
@@ -34,6 +39,7 @@ export default function ContactForm(){
           value={toSend.from_name}
           placeholder="Your full name.."
           onChange={handleChange}
+          className=" w-52"
         ></input>
         <br/>
         <label>Email:</label><br/>
@@ -42,6 +48,7 @@ export default function ContactForm(){
           value={toSend.from_email}
           placeholder="Your email"
           onChange={handleChange}
+          className=" w-52"
         ></input>
         <br/>
         <label>Message:</label><br/>
@@ -49,7 +56,7 @@ export default function ContactForm(){
           name="message"
           value={toSend.message}
           placeholder="Your message.."
-          className=" h-80 text-red-700"
+          className=" h-80 w-80 text-red-700"
           onChange={handleChange}
         ></textarea>
         <br/>

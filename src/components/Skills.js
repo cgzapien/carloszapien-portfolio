@@ -6,12 +6,12 @@ import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 
 export default function Skills(){
   return (
-    <div id="skills" className="h-96">
+    <div id="skills" className=" h-auto sm:h-auto">
        <h1 style={{fontSize: "50px", textAlign: "center"}}>
           Skills I've Learned
       </h1>
-      <div className="flex justify-evenly p-7">
-        <div className="">
+      <div className=" flex-col p-7 shrink content-center">
+        <div className=" p-10">
           <h1 className="display: relative text-3xl">Languages</h1>
           <ul className="w-80 list-disc list-outside">
             <li className="text-2xl"><FontAwesomeIcon icon={faJs}  /> Javascript</li>
@@ -19,14 +19,14 @@ export default function Skills(){
             <li className="text-2xl"><FontAwesomeIcon icon={faCss3} /> CSS</li>
           </ul>
         </div>
-        <div>
+        <div className=" p-10 ">
           <h1 className="display: relative text-3xl">Frameworks</h1>
           <ul className="w-80 list-disc list-outside">
             <li className="text-2xl"><FontAwesomeIcon icon={faReact} /> React</li>
             <li className="text-2xl"><FontAwesomeIcon icon={faNode} /> Node.js</li>
           </ul>
         </div>
-        <div>
+        <div className=" p-10">
           <h1 className="display: relative text-3xl">Database</h1>
           <ul className="w-80 list-disc list-outside">
             <li className="text-2xl"><FontAwesomeIcon icon={faLeaf} /> MongoDB</li>
@@ -34,7 +34,7 @@ export default function Skills(){
             <li className="text-2xl"><FontAwesomeIcon icon={faNodeJs} /> Mongoose</li>
           </ul>
         </div>
-        <div>
+        <div className=" p-10">
           <h1 className="display: relative text-3xl">Been experimenting with</h1>
           <ul className="w-80 list-disc list-outside">
             <li className="text-2xl">React Native</li>
