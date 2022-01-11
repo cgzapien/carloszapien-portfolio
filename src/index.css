@@ -19,3 +19,13 @@ body {
 /* #heading {
   margin: 10% 30% 1px;
 } */
+.skillsContainer {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1500px) {
+  .skillsContainer {
+    display: grid;
+    justify-content: center;
+  }
+}

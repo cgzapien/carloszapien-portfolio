@@ -10,7 +10,7 @@ export default function Skills(){
        <h1 style={{fontSize: "50px", textAlign: "center"}}>
           Skills I've Learned
       </h1>
-      <div className=" flex-col p-7 shrink">
+      <div className="skillsContainer">
         <div className=" p-10">
           <h1 className="display: relative text-3xl underline">Languages</h1>
           <ul className="w-80 ">

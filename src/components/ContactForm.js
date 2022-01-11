@@ -39,7 +39,7 @@ export default function ContactForm(){
           value={toSend.from_name}
           placeholder="Your full name.."
           onChange={handleChange}
-          className=" w-52 text-[#0a192f] bg-[#8892b0] placeholder-[#0a192f]"
+          className=" w-80 text-[#0a192f] bg-[#8892b0] placeholder-[#0a192f]"
         ></input>
         <br/>
         <label>Email:</label><br/>
@@ -48,7 +48,7 @@ export default function ContactForm(){
           value={toSend.from_email}
           placeholder="Your email"
           onChange={handleChange}
-          className=" w-52 text-[#0a192f] bg-[#8892b0] placeholder-[#0a192f]"
+          className=" w-80 text-[#0a192f] bg-[#8892b0] placeholder-[#0a192f]"
         ></input>
         <br/>
         <label>Message:</label><br/>
