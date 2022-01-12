@@ -8,7 +8,7 @@ export default function Skills(){
   return (
     <div id="skills" className=" h-auto sm:h-auto ">
        <h1 className="text-5xl text-center">
-          Skills I've Learned
+          Skills
       </h1>
       <div className="skillsContainer">
         <div className=" p-10 w-fit">
@@ -35,7 +35,7 @@ export default function Skills(){
           </ul>
         </div>
         <div className=" p-10 w-fit">
-          <h1 className="display: relative text-3xl underline">Experimenting with</h1>
+          <h1 className="display: relative text-3xl underline">Learning</h1>
             <ul className=" ">
               <li className="text-2xl">React Native</li>
               <li className="text-2xl">Tailwind CSS</li>

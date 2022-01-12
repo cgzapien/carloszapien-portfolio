@@ -25,13 +25,20 @@ body {
 }
 .aboutContainer {
   display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
+  justify-content: center;
+
   padding: 2.5rem;
 }
 @media screen and (max-width: 1300px) {
   .skillsContainer {
-    display: grid;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 2.5rem;
   }
 }
