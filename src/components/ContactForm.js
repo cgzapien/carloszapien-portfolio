@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { send } from "@emailjs/browser";
 
 export default function ContactForm(){
+  const [toggleForm, setToggleForm] = useState(true)
   const [toSend, setToSend] = useState({
     from_name: '',
     from_email: "",
@@ -21,17 +22,19 @@ export default function ContactForm(){
     //   .catch((err) => {
     //     console.log('FAILED...', err);
     //   });
-    setToSend({
-      from_name: '',
-      from_email: "",
-      message: '',
-    })    
+    // setToSend({
+    //   from_name: '',
+    //   from_email: "",
+    //   message: '',
+    // })
+    setToggleForm(false)    
   };
   function handleChange(e){
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   }
   return (
     <div className=" container m-auto flex justify-center p-5">
+      {toggleForm ? 
       <form onSubmit={onSubmit} className="" >
         <span>Name:</span><br/>
         <input
@@ -65,10 +68,12 @@ export default function ContactForm(){
             type="submit"
             className=" border-[#ccd6f6] border-2 p-3 hover:text-[#64ffda] hover:border-[#64ffda] font-mono"
           >Send</button>
-
         </div>
-        
       </form>
+      :
+      <h1 className=" text-4xl">Thanks for reaching out! Check your email.</h1>
+      }
     </div>
+
   )
 }
