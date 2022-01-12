@@ -6,7 +6,7 @@ import ProjectTwo from "./ProjectTwo";
 export default function Projects(){
   return (
     <div className=" relative h-max" id="projects">
-      <h1 style={{fontSize: "50px", textAlign: "center"}} id="thingsIBuilt">Some Things I've Built</h1>
+      <h1 className="text-5xl text-center" id="thingsIBuilt">Projects</h1>
       <ProjectOne />
       <ProjectTwo />
       <ProjectThree />

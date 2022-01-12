@@ -22,9 +22,9 @@ export default function ProjectOne() {
           <li className=" p-[5px]">CSS</li>
         </ul>
         <div className="">
-          <span className="font-mono">see my code &#8594;</span>
+          <span className=" p-[5px] font-mono hover:text-[#64ffda] hover:cursor-pointer">see my code &#8594;</span>
           <a className=" p-[5px] hover:text-[#64ffda]" href="https://github.com/cgzapien" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faGithub} /></a>
-          <span className="font-mono">see it live &#8594;</span>
+          <span className=" p-[5px] font-mono hover:text-[#64ffda] hover:cursor-pointer">see it live &#8594;</span>
           <a className=" p-[5px] hover:text-[#64ffda]" href="https://github.com/cgzapien" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faFile}/></a>
         </div>
       </div>

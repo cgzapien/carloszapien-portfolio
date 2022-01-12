@@ -29,7 +29,7 @@ body {
   align-items: center;
   padding: 2.5rem;
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1300px) {
   .skillsContainer {
     display: grid;
     justify-content: center;
