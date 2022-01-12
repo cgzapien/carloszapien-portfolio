@@ -10,23 +10,23 @@ export default function ContactForm(){
   });
   const onSubmit = (e) => {
     e.preventDefault();
-    // send(
-    //   'service_portfolio',
-    //   'template_portfolio',
-    //   toSend,
-    //   'user_ILt67rnSzwuM0lsoOKPOL'
-    // )
-    //   .then((response) => {
-    //     console.log('SUCCESS!', response.status, response.text);
-    //   })
-    //   .catch((err) => {
-    //     console.log('FAILED...', err);
-    //   });
-    // setToSend({
-    //   from_name: '',
-    //   from_email: "",
-    //   message: '',
-    // })
+    send(
+      'service_portfolio',
+      'template_portfolio',
+      toSend,
+      'user_ILt67rnSzwuM0lsoOKPOL'
+    )
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+      })
+      .catch((err) => {
+        console.log('FAILED...', err);
+      });
+    setToSend({
+      from_name: '',
+      from_email: "",
+      message: '',
+    })
     setToggleForm(false)    
   };
   function handleChange(e){
@@ -71,7 +71,7 @@ export default function ContactForm(){
         </div>
       </form>
       :
-      <h1 className=" text-4xl">Thanks for reaching out! Check your email.</h1>
+      <h1 className=" text-4xl text-center">Thanks for reaching out! Check your email.</h1>
       }
     </div>
 
