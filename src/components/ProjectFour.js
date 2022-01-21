@@ -22,7 +22,7 @@ export default function ProjectFour() {
           <span className=" p-[5px] font-mono hover:text-[#64ffda] hover:cursor-pointer">see my code &#8594;</span>
           <a className=" p-[5px] hover:text-[#64ffda]" href="https://github.com/cgzapien/mariopestcontrol"><FontAwesomeIcon size="lg" icon={faGithub} /></a>
           <span className=" p-[5px] font-mono hover:text-[#64ffda] hover:cursor-pointer">see it live &#8594;</span>
-          <a className=" p-[5px] hover:text-[#64ffda]" href="https://github.com/cgzapien/mariopestcontrol"><FontAwesomeIcon size="lg" icon={faFile}/></a>
+          <a className=" p-[5px] hover:text-[#64ffda]" href="https://mariopestcompany.netlify.app/"><FontAwesomeIcon size="lg" icon={faFile}/></a>
         </div>
       </div>
       <div className=" w-fit m-0 hidden md:flex" id="projectimage">
