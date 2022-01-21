@@ -2,6 +2,7 @@ import React from "react";
 import ProjectOne from "./ProjectOne"
 import ProjectThree from "./ProjectThree";
 import ProjectTwo from "./ProjectTwo";
+import ProjectFour from "./ProjectFour"
 
 export default function Projects(){
   return (
@@ -10,6 +11,7 @@ export default function Projects(){
       <ProjectOne />
       <ProjectTwo />
       <ProjectThree />
+      <ProjectFour />
     </div>
   )
 }
