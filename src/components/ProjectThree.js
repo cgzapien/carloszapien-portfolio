@@ -25,9 +25,13 @@ export default function ProjectThree() {
           <li className=" p-[5px]">Material UI</li>
         </ul>
         <div>
+          <a className=" p-[5px] hover:text-[#64ffda]" href="https://github.com/cgzapien/worldOfDrinks" target="_blank" rel="noreferrer">
           <span className=" p-[5px] font-mono hover:text-[#64ffda] hover:cursor-pointer">see my code &#8594;</span>
+          </a>
           <a className=" p-[5px] hover:text-[#64ffda]" href="https://github.com/cgzapien/worldOfDrinks" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faGithub} /></a>
+          <a className=" p-[5px] hover:text-[#64ffda]" href="https://worldofdrinks.herokuapp.com/" target="_blank" rel="noreferrer">
           <span className=" p-[5px] font-mono hover:text-[#64ffda] hover:cursor-pointer">see it live &#8594;</span>
+          </a>
           <a className=" p-[5px] hover:text-[#64ffda]" href="https://worldofdrinks.herokuapp.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faFile}/></a>
         </div>
       </div>
