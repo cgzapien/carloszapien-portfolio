@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import workImage from "../media/project.jpg"
+
+import mario from "../media/mariopestcontrol.png"
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 
@@ -30,7 +31,7 @@ export default function ProjectFour() {
         </div>
       </div>
       <div className=" w-fit m-0 hidden md:flex" id="projectimage">
-        <a href="https://github.com/cgzapien/mariopestcontrol" target="_blank" rel="noreferrer"><img src={workImage} alt="workimage" className="h-96 hover:opacity-50 w-fit hover:cursor-pointer rounded-[4px]"></img></a>
+        <a href="https://mariopestcompany.netlify.app/" target="_blank" rel="noreferrer"><img src={mario} alt="workimage" className="h-96 hover:opacity-50 w-fit hover:cursor-pointer rounded-[4px]"></img></a>
       </div>
     </div>
   )

@@ -12,7 +12,7 @@ export default function ProjectOne() {
       </div>
       <div id="project-content" className="  w-fit text-right">
         <p className=" text-base text-[#8892b0]">Featured Project</p>
-        <h1 className=" text-4xl">project 1</h1>
+        <h1 className=" text-4xl">Rock the Vote</h1>
         <div className=" py-2 w-fit ">
           <p className=" max-w-lg break-normal xl:text-xl ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
