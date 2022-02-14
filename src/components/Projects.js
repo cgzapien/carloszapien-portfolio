@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectOne from "./ProjectOne"
+// import ProjectOne from "./ProjectOne"
 import ProjectThree from "./ProjectThree";
 import ProjectTwo from "./ProjectTwo";
 import ProjectFour from "./ProjectFour"

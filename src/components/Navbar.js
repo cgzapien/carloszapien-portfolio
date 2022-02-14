@@ -8,6 +8,7 @@ const NavBar = () => {
       <ul className="text-1xl sm:text-2xl flex justify-end font-mono">
         {links.map((link) => (
           <Link
+          key={`${link}`}
            className="ml-3 hover:cursor-pointer p-[10px] hover:text-[#64ffda]" 
            activeClass="active"
            to={`${link}`}
