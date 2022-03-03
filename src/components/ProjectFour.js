@@ -7,8 +7,8 @@ import { faFile } from "@fortawesome/free-solid-svg-icons";
 
 export default function ProjectFour() {
   return (
-    <div id="projectTwo" className="h-max p-5 lg:flex lg:justify-evenly">
-      <div id="project-content" className="  w-fit text-right ">
+    <div id="projectFour" className="h-max p-5 lg:flex lg:justify-evenly">
+      <div id="project-content" className="  w-fit text-right mr-[25px]">
         <p className=" text-base text-[#8892b0]">Featured Project</p>
         <h1 className=" text-4xl">Mario Pest Control</h1>
         <div className=" py-2 w-fit ">
@@ -30,6 +30,7 @@ export default function ProjectFour() {
           <a className=" p-[5px] hover:text-[#64ffda]" href="https://mariopestcompany.netlify.app/" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faFile}/></a>
         </div>
       </div>
+      <br/>
       <div className=" w-fit m-0 hidden md:flex" id="projectimage">
         <a href="https://mariopestcompany.netlify.app/" target="_blank" rel="noreferrer"><img src={mario} alt="workimage" className="h-96 hover:opacity-50 w-fit hover:cursor-pointer rounded-[4px]"></img></a>
       </div>

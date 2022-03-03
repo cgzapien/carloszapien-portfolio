@@ -6,7 +6,7 @@ export default function Main(){
     <div className=" text-center h-[28rem]  md:h-[50vh]">
       <div className=" text-left w-fit m-auto" id="heading">
         <h1 className="text-[#8892b0] text-[30px]">Hi, my name is</h1>
-        <h1 className="text-8xl">Carlos Zapien.</h1>
+        <h1 className=" text-6xl md:text-8xl lg:text-8xl">Carlos Zapien.</h1>
         {/* <h1 className="text-[#8892b0] text-[30px] break-normal">Let's build your application together!</h1> */}
       </div>
       <br/>
