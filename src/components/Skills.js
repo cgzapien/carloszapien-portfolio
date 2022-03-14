@@ -40,6 +40,7 @@ export default function Skills(){
               <li className="text-2xl">React Native</li>
               <li className="text-2xl">Tailwind CSS</li>
               <li className="text-2xl">Material UI</li>
+              <li className="text-2xl">Wordpress</li>
             </ul>
         </div>
 
