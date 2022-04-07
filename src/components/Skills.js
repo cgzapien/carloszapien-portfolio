@@ -1,7 +1,7 @@
 import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHtml5, faJs, faReact, faCss3, faNode, faNodeJs, } from "@fortawesome/free-brands-svg-icons";
+import { faReact, faCss3, faNode, faNodeJs, } from "@fortawesome/free-brands-svg-icons";
 import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 
 export default function Skills(){
