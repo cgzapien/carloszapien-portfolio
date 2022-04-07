@@ -7,44 +7,20 @@ import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 export default function Skills(){
   return (
     <div id="skills" className=" h-auto sm:h-auto ">
-       <h1 className="text-5xl text-center">
+      <h1 className="text-5xl text-center">
           Skills
       </h1>
-      <div className="skillsContainer">
-        <div className=" p-10 w-fit">
-          <h1 className="display: relative text-3xl underline">Languages</h1>
-          <ul className="">
-            <li className="text-2xl"><FontAwesomeIcon icon={faJs}  /> Javascript</li>
-            <li className="text-2xl"><FontAwesomeIcon icon={faHtml5} /> HTML</li>
-            <li className="text-2xl"><FontAwesomeIcon icon={faCss3} /> CSS</li>
+        <div className="skillsContainer">
+          <ul className="skills">
+            <li className="text-3xl"><FontAwesomeIcon icon={faReact} /> React</li>
+            <li className="text-3xl"><FontAwesomeIcon icon={faNode} /> Node.js</li>
+            <li className="text-3xl"><FontAwesomeIcon icon={faCss3} /> Tailwind CSS</li>
+            <li className="text-3xl"><FontAwesomeIcon icon={faCss3} /> Material UI</li>
+            <li className="text-3xl"><FontAwesomeIcon icon={faLeaf} /> MongoDB</li>
+            <li className="text-3xl"><FontAwesomeIcon icon={faNodeJs} /> Express.js</li>
+            <li className="text-3xl"><FontAwesomeIcon icon={faNodeJs} /> Mongoose</li>
           </ul>
         </div>
-        <div className=" p-10 w-fit ">
-          <h1 className="display: relative text-3xl underline">Frameworks</h1>
-          <ul className=" ">
-            <li className="text-2xl"><FontAwesomeIcon icon={faReact} /> React</li>
-            <li className="text-2xl"><FontAwesomeIcon icon={faNode} /> Node.js</li>
-          </ul>
-        </div>
-        <div className=" p-10 w-fit">
-          <h1 className="display: relative text-3xl underline">Database</h1>
-          <ul className=" ">
-            <li className="text-2xl"><FontAwesomeIcon icon={faLeaf} /> MongoDB</li>
-            <li className="text-2xl"><FontAwesomeIcon icon={faNodeJs} /> Express.js</li>
-            <li className="text-2xl"><FontAwesomeIcon icon={faNodeJs} /> Mongoose</li>
-          </ul>
-        </div>
-        <div className=" p-10 w-fit">
-          <h1 className="display: relative text-3xl underline">Learning</h1>
-            <ul className=" ">
-              <li className="text-2xl">React Native</li>
-              <li className="text-2xl">Tailwind CSS</li>
-              <li className="text-2xl">Material UI</li>
-              <li className="text-2xl">Wordpress</li>
-            </ul>
-        </div>
-
-      </div>
   </div>
   )
 }

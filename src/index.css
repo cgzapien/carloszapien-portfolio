@@ -5,35 +5,39 @@
 body {
   margin: 0;
   background-color: #0a192f;
-  /* color: #8892b0; */
   color: #ccd6f6;
 }
-/* #aboutme::after {
-  content: "";
-  display: block;
-  position: relative;
-  width: 100px;
-  background-color: white;
-  height: 1px;
-} */
-/* #heading {
-  margin: 10% 30% 1px;
-} */
 .skillsContainer {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  padding: 25px;
 }
 .aboutContainer {
   display: flex;
   justify-content: center;
-
   padding: 2.5rem;
+}
+.skills {
+  display: flex;
+}
+li {
+  padding: 10px;
+  margin: 0 10px;
 }
 @media screen and (max-width: 1300px) {
   .skillsContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+  li {
+    padding: 10px;
+    margin: 0 10px;
   }
   .aboutContainer {
     display: flex;

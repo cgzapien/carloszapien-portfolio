@@ -1,13 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import generaciones from "../media/generaciones.png"
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 
-export default function ProjectTwo() {
+export default function ProjectOne() {
   return (
-    <div id="projectTwo" className="h-max p-5 lg:flex lg:justify-evenly">
+    <div id="projectOne" className="h-max p-5 lg:flex lg:justify-evenly">
       <div id="project-content" className="  w-fit text-right lg:mr-[25px]">
         <p className=" text-base text-[#8892b0]">Featured Project</p>
         <h1 className=" text-4xl">Generaciones Counseling</h1>

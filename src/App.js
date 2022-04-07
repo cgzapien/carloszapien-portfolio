@@ -6,7 +6,6 @@ import Main from "./components/Main"
 import NavBar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowCircleUp } from "@fortawesome/free-solid-svg-icons";
@@ -38,7 +37,6 @@ export default function App() {
       <Projects />
       <About />
       <Skills />
-      <Contact />
       {toggleButton && (
         <button className="sticky bottom-10 left-[95%] opacity-30 text-4xl md:text-5xl " onClick={scrollToTop}><FontAwesomeIcon icon={faArrowCircleUp}/></button>
       )}

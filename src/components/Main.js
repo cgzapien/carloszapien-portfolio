@@ -1,27 +1,22 @@
 import React from "react";
-import { Link } from "react-scroll";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin,  } from "@fortawesome/free-brands-svg-icons";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 export default function Main(){
   return (
-    <div className=" text-center h-[28rem]  md:h-[50vh]">
+    <div className=" text-center h-[28rem]  md:h-[75vh]">
       <div className=" text-left w-fit m-auto" id="heading">
-        <h1 className="text-[#8892b0] text-[30px]">Hi, my name is</h1>
         <h1 className=" text-6xl md:text-8xl lg:text-8xl">Carlos Zapien.</h1>
-        {/* <h1 className="text-[#8892b0] text-[30px] break-normal">Let's build your application together!</h1> */}
+        <h1 className="text-[#8892b0] text-[30px]">Software Developer</h1>
       </div>
       <br/>
-      {/* <a href="mailto:zapiencg@gmail.com"><button className=" border-2 p-3 hover:text-[#64ffda] hover:border-[#64ffda]">Hire me</button></a> */}
-      <Link
-        className="hover:cursor-pointer p-[10px] hover:text-[#64ffda]"
-        activeClass="active"
-        to="contact"
-        spy={true}
-        smooth={true}
-        offset={-15}
-        duration= {500}
-      >
-        <button className=" border-2 p-3 hover:text-[#64ffda] hover:border-[#64ffda] font-mono">Hire me</button>
-      </Link>
+        <div>
+          <ul className="flex justify-center">
+            <li><a href="https://www.linkedin.com/in/carlos-zapien/" target="_blank"rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="4x" className="hover:text-[#64ffda] p-[10px]" /></a></li>
+            <li><a href="https://github.com/cgzapien" target="_blank"rel="noreferrer"><FontAwesomeIcon icon={faGithub} size="4x" className="hover:text-[#64ffda] p-[10px]" /></a></li>
+            <li><a href="mailto:zapiencg@gmail.com" target="_blank"rel="noreferrer"><FontAwesomeIcon icon={faPaperPlane} size="4x" className="hover:text-[#64ffda] p-[10px]" /></a></li>
+          </ul>
+        </div>
     </div>
   )
 }
