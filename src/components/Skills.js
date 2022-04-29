@@ -12,6 +12,7 @@ export default function Skills(){
       </h1>
         <div className="skillsContainer">
           <ul className="skills">
+            <li className="text-3xl"><FontAwesomeIcon icon={faNodeJs} /> Javascript</li>
             <li className="text-3xl"><FontAwesomeIcon icon={faReact} /> React</li>
             <li className="text-3xl"><FontAwesomeIcon icon={faNode} /> Node.js</li>
             <li className="text-3xl"><FontAwesomeIcon icon={faCss3} /> Tailwind CSS</li>

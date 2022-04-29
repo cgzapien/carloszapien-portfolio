@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
-  const links = ["projects", "about", "skills", "contact"];
+  const links = ["projects", "about", "skills"];
   return (
     <nav className="h-40">
       <ul className="text-1xl sm:text-2xl flex justify-end font-mono">
