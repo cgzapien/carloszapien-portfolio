@@ -5,7 +5,7 @@ const NavBar = () => {
   const links = ["projects", "about", "skills"];
   return (
     <nav className="h-40">
-      <ul className="text-1xl sm:text-2xl flex justify-end font-mono">
+      <ul className="text-1xl sm:text-2xl flex justify-end font-mono p-7">
         {links.map((link) => (
           <Link
           key={`${link}`}
