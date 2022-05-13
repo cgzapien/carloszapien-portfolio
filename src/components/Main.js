@@ -4,7 +4,7 @@ import { faGithub, faLinkedin,  } from "@fortawesome/free-brands-svg-icons";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 export default function Main(){
   return (
-    <div className=" text-center h-[28rem]  md:h-[75vh]">
+    <div className=" text-center h-[20rem]  md:h-[60vh]">
       <div className=" text-left w-fit m-auto" id="heading">
         <h1 className=" text-6xl md:text-8xl lg:text-8xl">Carlos Zapien.</h1>
         <h1 className="text-[#8892b0] text-[30px]">Software Developer</h1>

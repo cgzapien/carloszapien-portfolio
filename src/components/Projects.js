@@ -12,7 +12,7 @@ export default function Projects(){
       <ProjectOne />
       <ProjectTwo />
       <ProjectThree />
-      <ProjectFour />
+      {/* <ProjectFour /> */}
       <ProjectFive />
     </div>
   )
