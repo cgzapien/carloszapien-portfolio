@@ -2,7 +2,7 @@ import React from "react";
 import ProjectOne from "./ProjectOne"
 import ProjectThree from "./ProjectThree";
 import ProjectTwo from "./ProjectTwo";
-import ProjectFour from "./ProjectFour"
+//import ProjectFour from "./ProjectFour"
 import ProjectFive from "./ProjectFive"
 
 export default function Projects(){
