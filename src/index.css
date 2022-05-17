@@ -4,8 +4,12 @@
 
 body {
   margin: 0;
-  background-color: #0a192f;
+  /* background-color: #0a192f; */
   color: #ccd6f6;
+  background: #0A192F;
+  background: -moz-linear-gradient(-45deg, #0A192F 0%, #1773CB 100%);
+  background: -webkit-linear-gradient(-45deg, #0A192F 0%, #1773CB 100%);
+  background: linear-gradient(135deg, #0A192F 0%, #1773CB 100%);
 }
 .skillsContainer {
   display: flex;
@@ -18,19 +22,11 @@ body {
   justify-content: center;
   padding: 2.5rem;
 }
-.skills {
-  display: flex;
-}
 li {
   padding: 10px;
   margin: 0 10px;
 }
 @media screen and (max-width: 1300px) {
-  .skillsContainer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
   .skills {
     display: flex;
     flex-direction: column;

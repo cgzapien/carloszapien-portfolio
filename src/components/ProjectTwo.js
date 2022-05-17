@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import rockthevote from "../media/rockthevote.png"
+
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 
@@ -13,7 +13,7 @@ export default function ProjectTwo() {
         <div className=" py-2 w-fit ">
           <p className=" max-w-lg break-normal xl:text-xl ">Community based full stack web application where users can go voice their opinions on issues regarding their communities. Utilizing the CRUD operations, users can add, delete and update issues. Back-end deployed using Heroku, MongoDB for database and front-end deployed using Netlify.</p>
         </div>
-        <ul className="flex font-mono justify-end">
+        <ul className="flex  justify-end">
           <li className=" p-[5px]">JS</li>
           <li className=" p-[5px]">HTML</li>
           <li className=" p-[5px]">CSS</li>
@@ -21,19 +21,19 @@ export default function ProjectTwo() {
           <li className=" p-[5px]">Material UI</li>
         </ul>
         <div>
-          <a className=" p-[5px] hover:text-[#64ffda]" href="https://github.com/cgzapien/rockthevote" target="_blank" rel="noreferrer">
-          <span className=" p-[5px] font-mono hover:text-[#64ffda] hover:cursor-pointer">see my code &#8594;</span>
+          <a className=" p-[5px] " href="https://github.com/cgzapien/rockthevote" target="_blank" rel="noreferrer">
+          <span className=" p-[5px]  hover:cursor-pointer">see my code &#8594;</span>
           </a>
-          <a className=" p-[5px] hover:text-[#64ffda]" href="https://github.com/cgzapien/rockthevote" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faGithub} /></a>
-          <a className=" p-[5px] hover:text-[#64ffda]" href="https://rockthevote.netlify.app/" target="_blank" rel="noreferrer">
-          <span className=" p-[5px] font-mono hover:text-[#64ffda] hover:cursor-pointer">see it live &#8594;</span>
+          <a className=" p-[5px] " href="https://github.com/cgzapien/rockthevote" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faGithub} /></a>
+          <a className=" p-[5px] " href="https://rockthevote.netlify.app/" target="_blank" rel="noreferrer">
+          <span className=" p-[5px]  hover:cursor-pointer">see it live &#8594;</span>
           </a>
-          <a className=" p-[5px] hover:text-[#64ffda]" href="https://rockthevote.netlify.app/" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faFile}/></a>
+          <a className=" p-[5px] " href="https://rockthevote.netlify.app/" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faFile}/></a>
         </div>
       </div>
       <br/>
       <div className=" w-fit m-0 hidden md:flex" id="projectimage">
-        <a href="https://rockthevote.netlify.app/" target="_blank" rel="noreferrer"><img src={rockthevote} alt="workimage" className="h-96 hover:opacity-50 w-fit hover:cursor-pointer rounded-[4px]"></img></a>
+        <a href="https://rockthevote.netlify.app/" target="_blank" rel="noreferrer"><img  alt="workimage" className="h-96 hover:opacity-50 w-fit hover:cursor-pointer rounded-[4px]"></img></a>
       </div>
     </div>
   )

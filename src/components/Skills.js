@@ -11,15 +11,15 @@ export default function Skills(){
           Skills
       </h1>
         <div className="skillsContainer">
-          <ul className="skills">
-            <li className="text-3xl"><FontAwesomeIcon icon={faNodeJs} /> Javascript</li>
-            <li className="text-3xl"><FontAwesomeIcon icon={faReact} /> React</li>
-            <li className="text-3xl"><FontAwesomeIcon icon={faNode} /> Node.js</li>
-            <li className="text-3xl"><FontAwesomeIcon icon={faCss3} /> Tailwind CSS</li>
-            <li className="text-3xl"><FontAwesomeIcon icon={faCss3} /> Material UI</li>
-            <li className="text-3xl"><FontAwesomeIcon icon={faLeaf} /> MongoDB</li>
-            <li className="text-3xl"><FontAwesomeIcon icon={faNodeJs} /> Express.js</li>
-            <li className="text-3xl"><FontAwesomeIcon icon={faNodeJs} /> Mongoose</li>
+          <ul className="flex-col md:flex">
+            <li className=" text-2xl md:text-3xl "><FontAwesomeIcon icon={faNodeJs} /> Javascript</li>
+            <li className=" text-2xl md:text-3xl"><FontAwesomeIcon icon={faReact} /> React</li>
+            <li className=" text-2xl md:text-3xl"><FontAwesomeIcon icon={faNode} /> Node.js</li>
+            <li className=" text-2xl md:text-3xl"><FontAwesomeIcon icon={faCss3} /> Tailwind CSS</li>
+            <li className=" text-2xl md:text-3xl"><FontAwesomeIcon icon={faCss3} /> Material UI</li>
+            <li className=" text-2xl md:text-3xl"><FontAwesomeIcon icon={faLeaf} /> MongoDB</li>
+            <li className=" text-2xl md:text-3xl"><FontAwesomeIcon icon={faNodeJs} /> Express.js</li>
+            <li className=" text-2xl md:text-3xl"><FontAwesomeIcon icon={faNodeJs} /> Mongoose</li>
           </ul>
         </div>
   </div>

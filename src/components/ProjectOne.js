@@ -12,14 +12,14 @@ export default function ProjectOne() {
         <div className=" py-2 w-fit ">
           <p className=" max-w-lg break-normal xl:text-xl ">Utilizing Wordpress, created a multi-page website with Simple Mail Transfer Protocol email services and CAPTCHA authentication.</p>
         </div>
-        <ul className="flex font-mono justify-end">
+        <ul className="flex justify-end">
           <li className=" p-[5px]">Wordpress</li>
         </ul>
         <div>
-          <a className=" p-[5px] hover:text-[#64ffda]" href="https://www.gencounseling.net/" target="_blank" rel="noreferrer">
-          <span className=" p-[5px] font-mono hover:text-[#64ffda] hover:cursor-pointer">see it live &#8594;</span>
+          <a className=" p-[5px]" href="https://www.gencounseling.net/" target="_blank" rel="noreferrer">
+          <span className=" p-[5px] hover:cursor-pointer">see it live &#8594;</span>
           </a>
-          <a className=" p-[5px] hover:text-[#64ffda]" href="https://www.gencounseling.net/" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faFile}/></a>
+          <a className=" p-[5px]" href="https://www.gencounseling.net/" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faFile}/></a>
         </div>
       </div>
       <br/>

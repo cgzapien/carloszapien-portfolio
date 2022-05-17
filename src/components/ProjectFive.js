@@ -13,7 +13,7 @@ export default function ProjectFive() {
         <div className=" py-2 w-fit ">
           <p className=" max-w-lg break-normal xl:text-xl ">A web application where the user can get data regarding the weather of their location. User inputs zip code to show current and 3 day weather forecast. App utilizes the Weather API. Deployed using Heroku.</p>
         </div>
-        <ul className="flex font-mono justify-end">
+        <ul className="flex  justify-end">
           <li className=" p-[5px]">JS</li>
           <li className=" p-[5px]">HTML</li>
           <li className=" p-[5px]">CSS</li>
@@ -21,14 +21,14 @@ export default function ProjectFive() {
           <li className=" p-[5px]">Material UI</li>
         </ul>
         <div>
-          <a className=" p-[5px] hover:text-[#64ffda]" href="https://github.com/cgzapien/weatherapp" target="_blank" rel="noreferrer">
-          <span className=" p-[5px] font-mono hover:text-[#64ffda] hover:cursor-pointer">see my code &#8594;</span>
+          <a className=" p-[5px] " href="https://github.com/cgzapien/weatherapp" target="_blank" rel="noreferrer">
+          <span className=" p-[5px]   hover:cursor-pointer">see my code &#8594;</span>
           </a>
-          <a className=" p-[5px] hover:text-[#64ffda]" href="https://github.com/cgzapien/weatherapp" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faGithub} /></a>
-          <a className=" p-[5px] hover:text-[#64ffda]" href="https://checkyourweatherapp.herokuapp.com/" target="_blank" rel="noreferrer">
-          <span className=" p-[5px] font-mono hover:text-[#64ffda] hover:cursor-pointer">see it live &#8594;</span>
+          <a className=" p-[5px] " href="https://github.com/cgzapien/weatherapp" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faGithub} /></a>
+          <a className=" p-[5px] " href="https://checkyourweatherapp.herokuapp.com/" target="_blank" rel="noreferrer">
+          <span className=" p-[5px]   hover:cursor-pointer">see it live &#8594;</span>
           </a>
-          <a className=" p-[5px] hover:text-[#64ffda]" href="https://checkyourweatherapp.herokuapp.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faFile}/></a>
+          <a className=" p-[5px] " href="https://checkyourweatherapp.herokuapp.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon size="lg" icon={faFile}/></a>
         </div>
       </div>
       <br/>
