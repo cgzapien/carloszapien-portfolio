@@ -1,19 +1,17 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin,  } from "@fortawesome/free-brands-svg-icons";
-import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+
 
 const NavBar = () => {
   const links = ["projects", "about", "skills"];
   return (
-    <nav className=" h-24 flex ">
+    <nav className=" h-24 flex justify-center sm:justify-start bg-[#ccd6f6] text-[#0A192F]">
       <ul className="flex items-baseline ">
         <div className="flex text-2xl sm:text-4xl justify-end p-7">
           {links.map((link) => (
             <Link
             key={`${link}`}
-            className="ml-3 hover:cursor-pointer p-[10px]" 
+            className="ml-3 hover:cursor-pointer p-[10px] hover:underline" 
             activeClass="active"
             to={`${link}`}
             spy={true}
@@ -26,17 +24,7 @@ const NavBar = () => {
           ))}
           
         </div>
-        <div className="hidden lg:flex">
-          <li>
-            <a href="https://www.linkedin.com/in/carlos-zapien/" target="_blank"rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="3x" className=" p-[10px]" /></a>
-          </li>
-          <li>
-            <a href="https://github.com/cgzapien" target="_blank"rel="noreferrer"><FontAwesomeIcon icon={faGithub} size="3x" className=" p-[10px]" /></a>
-          </li>
-          <li>
-            <a href="mailto:zapiencg@gmail.com" target="_blank"rel="noreferrer"><FontAwesomeIcon icon={faPaperPlane} size="3x" className=" p-[10px]" /></a>
-          </li>
-        </div>
+        
       </ul>
       
     </nav>

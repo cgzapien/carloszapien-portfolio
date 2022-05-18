@@ -10,7 +10,7 @@ export default function Skills(){
       <h1 className="text-5xl text-center">
           Skills
       </h1>
-        <div className="w-auto">
+        <div className="w-auto ">
           <ul className="flex flex-col  m-auto w-[280px] mt-9 lg:flex-row lg:w-auto ">
             <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faNodeJs} /> Javascript</li>
             <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faReact} /> React</li>
