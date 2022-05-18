@@ -10,11 +10,12 @@ export default function ProjectOne() {
         <p className=" text-base text-[#8892b0]">Featured Project</p>
         <h1 className=" text-4xl">Generaciones Counseling</h1>
         <div className=" py-2 w-fit ">
-          <p className=" max-w-lg break-normal xl:text-xl ">Generaciones Counseling is a mental health provider specializing in the Latino Community.
+          <p className=" max-w-lg break-normal sm:text-xl ">Generaciones Counseling is a mental health provider specializing in the Latino Community. People seeking
+            services can contact the mental health therapist the using the site's contact form. 
           </p>
         </div>
         <ul className="flex py-2">
-          <li className="">Wordpress</li>
+          <li className="">WordPress</li>
         </ul>
         <div>
           <a className="py-2" href="https://www.gencounseling.net/" target="_blank" rel="noreferrer">
@@ -25,7 +26,7 @@ export default function ProjectOne() {
       </div>
       <br/>
       <div className="flex justify-center" id="projectimage">
-        <a href="https://www.gencounseling.net/" target="_blank" rel="noreferrer"><img src={generaciones} alt="workimage" className="h-[300px] hover:opacity-50 w-fit hover:cursor-pointer rounded-[4px]"></img></a>
+        <a href="https://www.gencounseling.net/" target="_blank" rel="noreferrer"><img src={generaciones} alt="workimage" className="h-[300px] hover:opacity-50 sm:w-[550px] hover:cursor-pointer rounded-[4px]"></img></a>
       </div>
     </div>
   )

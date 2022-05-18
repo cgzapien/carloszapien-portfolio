@@ -10,16 +10,32 @@ export default function Skills(){
       <h1 className="text-5xl text-center">
           Skills
       </h1>
-        <div className="w-auto ">
-          <ul className="flex flex-col  m-auto w-[280px] mt-9 lg:flex-row lg:w-auto ">
-            <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faNodeJs} /> Javascript</li>
-            <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faReact} /> React</li>
-            <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faNode} /> Node.js</li>
-            <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faCss3} /> Tailwind CSS</li>
-            <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faCss3} /> Material UI</li>
-            <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faLeaf} /> MongoDB</li>
-            <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faNodeJs} /> Express.js</li>
-            <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faNodeJs} /> Mongoose</li>
+        <div className="text-center">
+          <ul className="flex flex-col justify-center mt-9 lg:flex-row">
+            <li className=" text-2xl md:text-3xl  mx-5 p-[8px] list-item">
+              <FontAwesomeIcon icon={faNodeJs} /><p>Javascript</p>
+            </li>
+            <li className=" text-2xl md:text-3xl  mx-5 p-[8px]">
+              <FontAwesomeIcon icon={faReact} /> <p>React</p>
+            </li>
+            <li className=" text-2xl md:text-3xl  mx-5 p-[8px]">
+              <FontAwesomeIcon icon={faCss3} /> <p>Tailwind CSS</p>
+            </li>
+            <li className=" text-2xl md:text-3xl  mx-5 p-[8px]">
+              <FontAwesomeIcon icon={faNode} /> <p>Node.js</p>
+            </li>
+            <li className=" text-2xl md:text-3xl  mx-5 p-[8px]">
+              <FontAwesomeIcon icon={faCss3} /> <p>Material UI</p>
+            </li>
+            <li className=" text-2xl md:text-3xl  mx-5 p-[8px]">
+              <FontAwesomeIcon icon={faLeaf} /> <p>MongoDB</p>
+            </li>
+            <li className=" text-2xl md:text-3xl  mx-5 p-[8px]">
+              <FontAwesomeIcon icon={faNodeJs} /> <p>Express.js</p>
+            </li>
+            <li className=" text-2xl md:text-3xl  mx-5 p-[8px]">
+              <FontAwesomeIcon icon={faNodeJs} /> <p>Mongoose</p>
+            </li>
           </ul>
         </div>
   </div>

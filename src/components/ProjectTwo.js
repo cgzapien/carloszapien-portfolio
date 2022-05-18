@@ -11,8 +11,8 @@ export default function ProjectTwo() {
         <p className=" text-base text-[#8892b0]">Featured Project</p>
         <h1 className=" text-4xl">Rock the vote</h1>
         <div className=" py-2 w-fit ">
-          <p className=" max-w-lg break-normal xl:text-xl ">Rock the vote is a community based application where members
-          can voice their issues. 
+          <p className=" max-w-lg break-normal sm:text-xl">Rock the vote is a community based application where members can voice their issues. 
+            Using the CRUD operations, users can add, delete and update issues. Back-end deployed using Heroku and front-end deployed using Netlify.
           </p>
         </div>
         <ul className="flex py-2">
@@ -35,7 +35,7 @@ export default function ProjectTwo() {
       </div>
       <br/>
       <div className="flex justify-center w-auto" id="projectimage">
-        <a href="https://rockthevote.netlify.app/" target="_blank" rel="noreferrer"><img src={rockthevote} alt="workimage" className="h-[300px] hover:opacity-50 w-fit hover:cursor-pointer rounded-[4px]"></img></a>
+        <a href="https://rockthevote.netlify.app/" target="_blank" rel="noreferrer"><img src={rockthevote} alt="workimage" className="h-[300px] w-[550px] hover:opacity-50 hover:cursor-pointer rounded-[4px]"></img></a>
       </div>
     </div>
   )
