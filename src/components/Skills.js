@@ -10,16 +10,16 @@ export default function Skills(){
       <h1 className="text-5xl text-center">
           Skills
       </h1>
-        <div className="skillsContainer">
-          <ul className="flex-col md:flex">
-            <li className=" text-2xl md:text-3xl "><FontAwesomeIcon icon={faNodeJs} /> Javascript</li>
-            <li className=" text-2xl md:text-3xl"><FontAwesomeIcon icon={faReact} /> React</li>
-            <li className=" text-2xl md:text-3xl"><FontAwesomeIcon icon={faNode} /> Node.js</li>
-            <li className=" text-2xl md:text-3xl"><FontAwesomeIcon icon={faCss3} /> Tailwind CSS</li>
-            <li className=" text-2xl md:text-3xl"><FontAwesomeIcon icon={faCss3} /> Material UI</li>
-            <li className=" text-2xl md:text-3xl"><FontAwesomeIcon icon={faLeaf} /> MongoDB</li>
-            <li className=" text-2xl md:text-3xl"><FontAwesomeIcon icon={faNodeJs} /> Express.js</li>
-            <li className=" text-2xl md:text-3xl"><FontAwesomeIcon icon={faNodeJs} /> Mongoose</li>
+        <div className="w-auto">
+          <ul className="flex flex-col  m-auto w-[280px] mt-9 lg:flex-row lg:w-auto ">
+            <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faNodeJs} /> Javascript</li>
+            <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faReact} /> React</li>
+            <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faNode} /> Node.js</li>
+            <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faCss3} /> Tailwind CSS</li>
+            <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faCss3} /> Material UI</li>
+            <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faLeaf} /> MongoDB</li>
+            <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faNodeJs} /> Express.js</li>
+            <li className=" text-2xl md:text-3xl mx-5 p-[10px]"><FontAwesomeIcon icon={faNodeJs} /> Mongoose</li>
           </ul>
         </div>
   </div>

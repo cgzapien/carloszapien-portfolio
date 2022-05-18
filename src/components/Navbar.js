@@ -7,9 +7,9 @@ import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 const NavBar = () => {
   const links = ["projects", "about", "skills"];
   return (
-    <nav className=" h-24 flex">
-      <ul className="flex">
-        <div className="flex text-1xl sm:text-2xl justify-end p-7">
+    <nav className=" h-24 flex ">
+      <ul className="flex items-baseline ">
+        <div className="flex text-2xl sm:text-4xl justify-end p-7">
           {links.map((link) => (
             <Link
             key={`${link}`}
@@ -26,7 +26,7 @@ const NavBar = () => {
           ))}
           
         </div>
-        <div className="flex">
+        <div className="hidden lg:flex">
           <li>
             <a href="https://www.linkedin.com/in/carlos-zapien/" target="_blank"rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="3x" className=" p-[10px]" /></a>
           </li>

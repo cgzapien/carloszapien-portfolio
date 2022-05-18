@@ -11,34 +11,3 @@ body {
   background: -webkit-linear-gradient(-45deg, #0A192F 0%, #1773CB 100%);
   background: linear-gradient(135deg, #0A192F 0%, #1773CB 100%);
 }
-.skillsContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 25px;
-}
-.aboutContainer {
-  display: flex;
-  justify-content: center;
-  padding: 2.5rem;
-}
-li {
-  padding: 10px;
-  margin: 0 10px;
-}
-@media screen and (max-width: 1300px) {
-  .skills {
-    display: flex;
-    flex-direction: column;
-  }
-  li {
-    padding: 10px;
-    margin: 0 10px;
-  }
-  .aboutContainer {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    padding: 2.5rem;
-  }
-}
