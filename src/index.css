@@ -11,3 +11,19 @@ body {
   background: -webkit-linear-gradient(-45deg, #0A192F 0%, #1773CB 100%);
   background: linear-gradient(135deg, #0A192F 0%, #1773CB 100%);
 }
+.icon {
+  animation: updown 2s ease infinite;
+}
+@keyframes updown {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  50% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}

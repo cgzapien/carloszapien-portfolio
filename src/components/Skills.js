@@ -6,35 +6,35 @@ import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 
 export default function Skills(){
   return (
-    <div id="skills" className=" h-auto sm:h-auto ">
-      <h1 className="text-5xl text-center">
-          Skills
+    <div id="skills" className=" h-auto sm:h-auto  my-10">
+      <h1 className="text-4xl text-center">
+          My Skills
       </h1>
         <div className="text-center">
           <ul className="flex flex-col justify-center mt-9 lg:flex-row">
-            <li className=" text-2xl md:text-3xl  mx-5 p-[8px] list-item">
-              <FontAwesomeIcon icon={faNodeJs} /><p>Javascript</p>
+            <li className=" text-2xl md:text-3xl  mx-5 p-[8px] list-item ">
+              <FontAwesomeIcon icon={faNodeJs} className=" hover:animate-bounce"/><p className="">Javascript</p>
             </li>
             <li className=" text-2xl md:text-3xl  mx-5 p-[8px]">
-              <FontAwesomeIcon icon={faReact} /> <p>React</p>
+              <FontAwesomeIcon icon={faReact} className=" hover:animate-bounce"/> <p>React</p>
             </li>
             <li className=" text-2xl md:text-3xl  mx-5 p-[8px]">
-              <FontAwesomeIcon icon={faCss3} /> <p>Tailwind CSS</p>
+              <FontAwesomeIcon icon={faCss3} className=" hover:animate-bounce"/> <p>Tailwind CSS</p>
             </li>
             <li className=" text-2xl md:text-3xl  mx-5 p-[8px]">
-              <FontAwesomeIcon icon={faNode} /> <p>Node.js</p>
+              <FontAwesomeIcon icon={faNode} className=" hover:animate-bounce"/> <p>Node.js</p>
             </li>
             <li className=" text-2xl md:text-3xl  mx-5 p-[8px]">
-              <FontAwesomeIcon icon={faCss3} /> <p>Material UI</p>
+              <FontAwesomeIcon icon={faCss3} className=" hover:animate-bounce"/> <p>Material UI</p>
             </li>
             <li className=" text-2xl md:text-3xl  mx-5 p-[8px]">
-              <FontAwesomeIcon icon={faLeaf} /> <p>MongoDB</p>
+              <FontAwesomeIcon icon={faLeaf} className=" hover:animate-bounce"/> <p>MongoDB</p>
             </li>
             <li className=" text-2xl md:text-3xl  mx-5 p-[8px]">
-              <FontAwesomeIcon icon={faNodeJs} /> <p>Express.js</p>
+              <FontAwesomeIcon icon={faNodeJs} className=" hover:animate-bounce"/> <p>Express.js</p>
             </li>
             <li className=" text-2xl md:text-3xl  mx-5 p-[8px]">
-              <FontAwesomeIcon icon={faNodeJs} /> <p>Mongoose</p>
+              <FontAwesomeIcon icon={faNodeJs} className=" hover:animate-bounce"/> <p>Mongoose</p>
             </li>
           </ul>
         </div>

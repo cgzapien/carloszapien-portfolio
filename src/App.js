@@ -34,11 +34,11 @@ export default function App() {
     <>
       <NavBar />
       <Main />
+      <Skills />
       <Projects />
       <About />
-      <Skills />
       {toggleButton && (
-        <button className="sticky bottom-10 left-[95%] opacity-30 text-4xl md:text-5xl " onClick={scrollToTop}><FontAwesomeIcon icon={faArrowCircleUp}/></button>
+        <button className="sticky bottom-10 left-[95%] text-4xl md:text-5xl " onClick={scrollToTop}><FontAwesomeIcon icon={faArrowCircleUp}/></button>
       )}
       <Footer />
     </>
