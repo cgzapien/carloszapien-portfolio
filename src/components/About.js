@@ -3,9 +3,9 @@ import meme from "../media/meme.jpg"
 
 const About = () => {
   return (
-    <div id="about" className=" h-[45rem]">
+    <div id="about" className=" h-[45rem] w-fit m-auto">
       <div className="flex flex-col sm:flex-row justify-center mt-28 sm:space-x-5 w-fit m-auto sm:w-max">
-        <div className="p-5 border-2 rounded-md">
+        <div className="p-5 border-2 rounded-md ">
           <h1 className="text-5xl text-center p-2">A little about me</h1>
           <p className=" break-normal text-[20px] lg:text-2xl w-96"> 
             I love taking things apart and seeing if I can put them back together. This curiosity has really helped in learning

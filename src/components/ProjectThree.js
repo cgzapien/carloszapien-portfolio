@@ -7,7 +7,7 @@ import drinksImage from "../media/worldOfDrinks.png"
 export default function ProjectThree() {
   return (
 
-    <div id="projectThree" className="h-max p-5 lg:flex lg:justify-center">
+    <div id="projectThree" className="h-max p-5 lg:flex lg:justify-center w-fit m-auto">
       <div id="project-content" className="  w-fit mx-auto">
         <p className=" text-base text-[#8892b0]">Featured Project</p>
         <h1 className=" text-4xl">World of Drinks</h1>

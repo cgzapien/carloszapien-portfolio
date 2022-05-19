@@ -6,7 +6,7 @@ import { faFile } from "@fortawesome/free-solid-svg-icons";
 import rockthevote from "../media/rockthevote.png"
 export default function ProjectTwo() {
   return (
-    <div id="projectOne" className="h-max p-5 lg:flex lg:justify-center">
+    <div id="projectOne" className="h-max p-5 lg:flex lg:justify-center w-fit m-auto">
       <div id="project-content" className="  w-fit mx-auto">
         <p className=" text-base text-[#8892b0]">Featured Project</p>
         <h1 className=" text-4xl">Rock the vote</h1>
