@@ -11,7 +11,7 @@ export default function ProjectOne() {
         <h1 className=" text-4xl">Generaciones Counseling</h1>
         <div className=" py-2 w-fit ">
           <p className=" max-w-lg break-normal sm:text-xl ">Generaciones Counseling is a mental health provider specializing in the Latino Community. People seeking
-            services can contact the mental health therapist the using the site's contact form. 
+            services can contact the mental health therapist using the site's contact form. 
           </p>
         </div>
         <ul className="flex py-2">

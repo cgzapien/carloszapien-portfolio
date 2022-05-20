@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 const NavBar = () => {
   const links = ["projects", "about", "skills"];
   return (
-    <nav className=" h-14 sm:h-16 flex justify-center sm:justify-end bg-[#ccd6f6] text-[#0A192F] w-3/4 m-auto rounded-md items-center">
+    <nav className=" h-14 sm:h-16 flex justify-center sm:justify-end bg-[#ccd6f6] text-[#0A192F] m-auto rounded-b-md items-center">
       <ul className="flex items-baseline ">
     
         <div className="flex text-2xl sm:text-4xl">
