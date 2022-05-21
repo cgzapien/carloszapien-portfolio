@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
-import rockthevote from "../media/rockthevote.png"
+import rockthevote from "../media/newrockthevote.png"
 export default function ProjectTwo() {
   return (
     <div id="projectOne" className="h-max p-5 lg:flex lg:justify-center w-fit m-auto">
